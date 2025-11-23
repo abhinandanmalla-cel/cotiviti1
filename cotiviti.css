@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "Avenir-Roman",Helvetica,"Helvetica Neue",Arial,sans-serif;
+}
+
+    .container{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+}
+header{
+    background-color: #31006E;
+    padding-top: 35px;
+}
+
+
+#nav-menu{
+    list-style-type: none;
+}
+
+#nav-menu li{
+    display: inline-block;
+
+}
+#nav-menu li a{
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+
+nav{
+    float: right;
+}
+.banner{
+    background-color: #31006E;
+    padding: 90px 0;
+    background-image: url(cotiviti/banner-pattern.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.container h1{
+    margin-bottom: 70px;
+    color: white;
+    
+}
+.white{
+    background-color: white;
+    width: 60%;
+    height: 40%;
+    padding:20px;
+     ;
+}
+.white p{
+    font-size: 45px;
+}
+
+
+.p{
+    font-size: 45px;
+    color: #31006E;
+    
+}
+#intro{
+    padding: 90 0;
+    background-image: url(cotiviti/building.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-right:8% ;
+}
+
+    
+
+#btn1{
+    border: #31006E 1px solid;
+    color: #31006E;
+    padding: 10px 20px;
+    margin-top: 40px;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+}
+#btn1:hover{
+    background-color: rgb(238, 58, 88);
+    color: white;
+    border-color: rgb(238, 58, 88) ;
+}
+
+#intro-2 {
+    background-color: #00ADEE;
+    height: 50%;
+   text-align: center;
+   padding: 50px;
+}
+
+.btn2{
+    border:  white 1px solid;
+    color:  white;
+    background-color: #00ADEE;
+    padding: 10px 20px;
+    margin-top: 40px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.btn2:hover{
+    background-color: rgb(238, 58, 88);
+    
+    border-color: rgb(238, 58, 88) ;
+}
+#intro-2 .container p{
+          color: white;
+}
+#parallax img{
+    width: 100%;
+}
+#jointeam #team{
+    text-align: center;
+    padding: 50px;
+}
+#positions{
+    
+    padding: 3px 60px;
+}
+#positions a {
+    text-decoration: none;
+    color:  rgb(238, 58, 88);
+    font-size: 30px;
+}
+#positions a:hover{
+    color: #31006E;
+}
+#positions ul{
+    list-style-type: none;
+    
+}
+
+#positions ul hr{
+    margin-top: 13px;
+}
+#search {
+    text-align: center;
+    height: 65%;
+    background-image: url(cotiviti/join.png);
+    background-repeat: no-repeat;
+    background-position: center 170 ;
+}
+#search img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+small{
+    font-size: 15px; color: gray;
+}
+#btn3{
+    border: #31006E 1px solid;
+    color: #31006E;
+    padding: 10px 20px;
+    margin-top: 40px;
+    border-radius: 3px;
+    margin-top: 60px;
+    font-size: 16px;
+    background-color: white;
+}
+#btn3:hover{
+    background-color: rgb(238, 58, 88);
+    color: white;
+    border-color: rgb(238, 58, 88) ;
+    
+}
+#corporate{
+    background-color: #2D3891;
+    height: 80%;
+}
+#corporate .container{
+    height: 100%;
+    color: white;
+    padding: 100px 0 100px 0;
+    background-image: url(cotiviti/csr-graphics.png),url(cotiviti/csr-section-bg.jpg);
+    background-position: right, bottom;
+    background-repeat: no-repeat;
+}
+#btn4{
+    border:  white 1px solid;
+    color:  white;
+    background-color: #2D3891;
+    padding: 10px 20px;
+    margin-top: 40px;
+    border-radius: 4px;
+    font-size: 16px;
+ 
+}
+@media only screen and (min-width)
